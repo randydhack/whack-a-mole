@@ -1,0 +1,63 @@
+/* Your code here */
+.pf {
+  display: grid;
+  grid-template-columns: 350px 350px 350px 300px;
+  justify-content: space-evenly;
+}
+.wgs {
+  position: relative;
+  display: inline-block;
+  width: 320px;
+  height: 291px;
+  overflow: hidden;
+
+}
+
+.wgs__mole-head {
+  position: absolute;
+  width: 188px;
+  height: 182.2px;
+  left: 54.5px;
+  transition-duration: 0.25s;
+  transition-property: margin-top;
+
+}
+
+
+.wgs__mole-head--hidden {
+  margin-top: 320px;
+}
+
+.wgs__dirt-pile {
+  position: absolute;
+  width: 320px;
+  height: 110px;
+  top: 131px;
+
+}
+
+
+/* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
+.sb {
+  background-color: cornflowerblue;
+  border-bottom: 1px solid #645DED;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  color: white;
+  display: flex;
+  font-size: 30px;
+  margin-bottom: 50px;
+  padding: 10px 20px;
+}
+
+.sb__mole-counter {
+  flex: 1 0 0;
+  text-align: right;
+}
+
+.sb__score-holder {
+  flex: 1 0 0;
+}
+
+.sb__game-over--hidden {
+  display: none;
+}
